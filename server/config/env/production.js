@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://localhost/mean-prod',
+    db: 'mongodb://heroku_app27023445:cadence1@ds031988.mongolab.com:31988/heroku_app27023445',
     app: {
         name: 'MEAN - A Modern Stack - Production'
     },
