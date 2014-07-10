@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://ds027799.mongolab.com:27799/prorata-prod',
+    db: 'mongodb://prorata:prorata1@ds027799.mongolab.com:27799/prorata-prod',
     app: {
         name: 'MEAN - A Modern Stack - Production'
     },
