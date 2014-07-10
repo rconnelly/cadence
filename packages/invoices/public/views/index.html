@@ -1,3 +1,19 @@
 <div class="" data-ng-controller="InvoicesController">
 	<h1>Invoices</h1>
+
+    <button ng-click="addInvoice()">Create Invoice</button>
+
+    <div class="panel panel-default">
+
+    <table class="table">
+        <thead>
+        <tr><th colspan="4">All Invoices</th></tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="invoice in invoices">
+            <td>{{invoice.invoiceNumber}}</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
 </div>
